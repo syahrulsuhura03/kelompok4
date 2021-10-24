@@ -135,10 +135,10 @@ nano index.html
 ````
 
 
+![image-20211024124806360](https://user-images.githubusercontent.com/93044506/138596930-f77510c7-e65e-42d8-9179-34cae068b302.png)
 
-![image-20211024124806360](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024124806360.png)
+![image-20211024124811734](https://user-images.githubusercontent.com/93044506/138596962-bee82ad8-5367-4d05-831e-f04b4ec0409a.png)
 
-![image-20211024124811734](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024124811734.png)
 
 
 
@@ -150,7 +150,8 @@ curl -i http://lxc_php5.dev
 
 
 
-![image-20211024130126876](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024130126876.png)
+![image-20211024130126876](https://user-images.githubusercontent.com/93044506/138596974-3da2335d-5885-4b25-bbc9-4cc962131e63.png)
+
 
 
 
@@ -162,7 +163,8 @@ cd /etc/nginx/sites-avalaible/
 nano lxc_php5.6.dev
 ````
 
-![image-20211024130744115](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024130744115.png)
+![image-20211024130744115](https://user-images.githubusercontent.com/93044506/138596991-fb207d54-aaa5-4e82-b246-8955cbc15bdf.png)
+)
 
 ````markdown
 cd ../site-enabled/
@@ -173,9 +175,9 @@ nginx -t
 nano /etc/hosts
 ````
 
-![image-20211024131051224](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024131051224.png)
+![image-20211024131051224](https://user-images.githubusercontent.com/93044506/138597015-f009560b-2d24-458c-b127-1c8bb8a4c5f1.png)
 
-![image-20211024131056345](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024131056345.png)
+![image-20211024131056345](https://user-images.githubusercontent.com/93044506/138597022-db307a91-cb24-466d-b789-fc235c9c472f.png)
 
 lakukan setting pada ubuntu_landing html php5.6
 
@@ -187,22 +189,20 @@ cd lxc_php5.6/
 nano index.html
 ````
 
-![image-20211024131637715](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024131637715.png)
+![image-20211024131637715](https://user-images.githubusercontent.com/93044506/138597028-6ad9e7f0-0127-4e45-9b93-0bbf7a0e0e59.png)
 
 
 
 kemudian melakukan pengecekkan
 
-![image-20211024131644482](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024131644482.png)
-
+![image-20211024131644482](https://user-images.githubusercontent.com/93044506/138597031-11a68593-7ef7-40d2-92f6-d5e607dcd9ce.png)
 5. LXC ubuntu_landing harus auto start ketika vm dinyalakan, hal ini digunakan untuk menjaga agar website company profile tidak mengalami *downtime*
 
 ````markdown
 lxc-ls-f
 ````
 
-![image-20211024131916101](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024131916101.png)
-
+![image-20211024131916101](https://user-images.githubusercontent.com/93044506/138597038-486d60b0-8136-4909-b5c6-f8d046b66b12.png)
 
 
 6. setup nginx pada vm.local untuk mengatur *proxy_pass* dimana :
@@ -223,28 +223,24 @@ curl -i http://vm.local/
 
 ````
 
-![image-20211024132610527](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024132610527.png)
+![image-20211024132610527](https://user-images.githubusercontent.com/93044506/138597049-7dc38692-6f62-41e7-9fd1-ca4a0434cd40.png)
 
-![image-20211024132627110](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024132627110.png)
+!![image-20211024132627110](https://user-images.githubusercontent.com/93044506/138597052-701ea61a-5b12-4573-b034-7f34530e49f0.png)
+![image-20211024132656457](https://user-images.githubusercontent.com/93044506/138597062-01856ac7-ba29-401a-863c-a5b8e81700f7.png)
 
-![image-20211024132656457](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024132656457.png)
+![image-20211024132929489](https://user-images.githubusercontent.com/93044506/138597066-3c5b73f1-5009-4b77-bd7a-bd79dd7efbcb.png)
 
-![image-20211024132929489](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024132929489.png)
-
-![image-20211024133139655](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024133139655.png)
-
+![image-20211024133139655](https://user-images.githubusercontent.com/93044506/138597070-9697fe51-4dd2-46a6-9e72-11decc402cc5.png)
 
 
 7. untuk kebutuhan presentasi mereka, browser di laptop mereka harus dapat mengakses ketiga url tersebut
 
    
 
-![image-20211024133358421](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024133358421.png)
+![image-20211024133358421](https://user-images.githubusercontent.com/93044506/138597075-361dc839-bbde-449a-aca1-619ce5a6249b.png)
 
-![image-20211024133405035](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024133405035.png)
-
-![image-20211024133411930](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024133411930.png)
-
+![image-20211024133405035](https://user-images.githubusercontent.com/93044506/138597079-08ecc66f-ed62-423e-80fd-87d92d75333b.png)
+![image-20211024133411930](https://user-images.githubusercontent.com/93044506/138597083-e80414ea-2d16-47de-aabc-366815f8c893.png)
 
 
 8. Menyiapkan analisa untuk diserahkan ke CTO
