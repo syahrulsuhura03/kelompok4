@@ -24,11 +24,12 @@ syahrul suhura 1202190027
 
    
 
-![](D:\step1.png)
+![step1](https://user-images.githubusercontent.com/93044506/138595438-01010eeb-5912-44c7-9cc0-b3f86723654f.png)
+
 
 ​	kemudian setting ip static ubuntu_landing dengan ip addres 10.0.3.103
 
-![](D:\step2.png)
+![step2](https://user-images.githubusercontent.com/93044506/138595452-6370f241-7ddf-451c-a786-935ee55d9ee4.png)
 
 setelah setting kita reboot kemudian start ubuntu_landing dan masuk ke ubuntu_landing 
 
@@ -38,7 +39,7 @@ sudo lxc-attach -n ubuntu_landing
 
 
 
-![](D:\step3.png)
+![step3](https://user-images.githubusercontent.com/93044506/138595463-e2c56097-4aca-4ca6-8c30-c2b40e74dd7f.png)
 
  kemudian pengecekkan ip ubuntu_landing dengan ping google.com
 
@@ -46,7 +47,8 @@ sudo lxc-attach -n ubuntu_landing
 ping google.com
 ```
 
-![](D:\step4.png)
+![step4](https://user-images.githubusercontent.com/93044506/138595470-382fef44-433e-4bfd-a7c0-77b1f970763f.png)
+
 
 
 
@@ -57,16 +59,15 @@ ping google.com
    ````
 
    
-
-   ![image-20211024120722701](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024120722701.png)
+![image-20211024120722701](https://user-images.githubusercontent.com/93044506/138595653-28df44f2-2336-4fc1-9a6a-5785837f9366.png)
 
   setelah itu mengecek container sudah ter-instal atau belum menggunakan
 
 ````markdown
 sudo lxc-ls -f
 ````
+![image-20211024120912903](https://user-images.githubusercontent.com/93044506/138595662-d495ffde-fa88-4b1f-aa1e-a3cef12778a8.png)
 
-![image-20211024120912903](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024120912903.png)
 
 3. kemudian di start debian_php5.6 dan masuk dalam debian_php5.6
 
@@ -75,7 +76,7 @@ sudo lxc-start -n debian_php5.6 -d
 sudo lxc-attach -n debian_php5.6
 ````
 
-![](D:\step6.png)
+![step6](https://user-images.githubusercontent.com/93044506/138595741-fdeaf220-fd3c-45a8-91ed-06460dce31f7.png)
 
 install net-tools
 
@@ -83,7 +84,8 @@ install net-tools
 apt install nano net-tools curl -y
 ````
 
-![image-20211024121603205](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024121603205.png)
+![image-20211024121603205](https://user-images.githubusercontent.com/93044506/138595754-cdc318ce-0860-42e7-8cb6-c23166af8eeb.png)
+
 
  lakukan setting ip static menggunakan address 10.0.3.102
 
@@ -97,7 +99,8 @@ kemudian setting nginx
 apt install nginx-extras -y
 ````
 
-![image-20211024122519605](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024122519605.png)
+![image-20211024122519605](https://user-images.githubusercontent.com/93044506/138595798-70e0b3c3-96c5-43d2-a0bd-c099e6a174f3.png)
+
 
 lakukan setting pada interface
 
@@ -112,13 +115,14 @@ nginx -t
 
 ````
 
-![image-20211024122836328](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024122836328.png)
+![image-20211024122836328](https://user-images.githubusercontent.com/93044506/138595823-44314910-8674-49fc-a4f7-018485230e20.png)
 
 ````markdown
 nano /etc/hosts
 ````
 
-![image-20211024125939915](C:\Users\COMPUTER\AppData\Roaming\Typora\typora-user-images\image-20211024125939915.png)
+![image-20211024125939915](https://user-images.githubusercontent.com/93044506/138595895-ba869851-b903-4903-8b2e-a3173274fbd1.png)
+
 
 lakukan setting pada debian html php5.6
 
